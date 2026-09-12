@@ -7,4 +7,4 @@ The stock analysis helps to make investment decision by getting the fundamental 
 This also helps to analyse the stock by AI, by providing the necessary or required information.
 
 ## pre-requisite:
-Add ANTHROPIC_API_KEY to syatem environemnt. We don't want to have it as part of project .env file.
+Add ANTHROPIC_API_KEY to system environment. We don't want to have it as part of project .env file.
