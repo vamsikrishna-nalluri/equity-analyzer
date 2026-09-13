@@ -29,4 +29,9 @@ use command `pip install -r requirements.txt`
 
 
 
+## Responsible AI Use
+See [AUP](./docs/aup-acknowledgment.md) for data-sensitivity risk register and AUP acknowledgment.
+
+
+
 
