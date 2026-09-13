@@ -3,9 +3,9 @@
 A record of prompts tested for the equity-analyzer project, covering zero-shot, few-shot, and chain-of-thought techniques, with observations on what worked, what failed, and why.
 
 # Fundamental Score:
-* [zero-shot](zero-shot.md)
-* [few-shot](few-shot.md)
-* [chain-of-thought](chain-of-thought.md)
+* [zero-shot](./prompt-library/zero-shot.md)
+* [few-shot](./prompt-library/few-shot.md)
+* [chain-of-thought](./prompt-library/chain-of-thought.md)
 
 
 ## Overall Model Behaviour Notes
@@ -18,3 +18,7 @@ When writing prompts, it is important to provide a clear intent. If not, LLM wil
 
 **Quality differences**
 We have explicitly given what should happen if data is not enough or not available. The response is very precise as we expected. So, it is important that, you prompt should have clear instructions for different situations.
+
+
+# Risks and mitigation
+[risks and mitigations](./risks/risks-and-mitigations.md)
