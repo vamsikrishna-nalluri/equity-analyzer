@@ -1,3 +1,4 @@
+## src/equity_analyzer/domain/models/stock.py
 from dataclasses import dataclass
 
 

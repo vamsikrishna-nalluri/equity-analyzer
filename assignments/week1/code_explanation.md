@@ -10,7 +10,7 @@ The project has list of APIs, these fetch the infomratin from the yfinance API a
 <instructions>
 1. Provide a summary of the complete functoinality.
 2. Explain the code for each function, provide details of the input paremeters and return values.
-3. If the code is complex, explain the with inline comments for each line.
+3. If the code is complex, explain with additional details why it is so complex.
 4. Always explain the code in the order of execution.
 5. Explain the logic, if there are multiple nested loops or recusive logic
 </instructions>

@@ -2,17 +2,24 @@ You are an expert in analysing the bugs by checking the logs, code. Your goal is
 
 <context>
 <bug_detail>
-- bug description: [the bug desription goes here]
-- Actual result: [the actual result details goes here]
-- Expected result: [the expected result goes here]
-- log file : [log file content goes here]
+- bug description: unable to fetch the market data
+- Actual result: "Market data provider is temporarily unavailable."
+- Expected result: the endpoint `v1/stock/TCS.NS` should return the stock details
+- log file : "Failed to retrieve fundamental data for ticker 'TCS.NS'.
+Traceback (most recent call last):
+  File "/Users/vamsikrishnanalluri/Developer/github-projects/equity-analyzer/src/equity_analyzer/infrastructure/market_data/yfinance_provider.py", line 35, in get_fundamentals
+    m.get("marketCap")  # Trigger network request
+    ^^^^^
+AttributeError: 'NoneType' object has no attribute 'get' "
+- suspected files : unknown
 </bug_detail>
 </context>
 
 <instructions>
 1. Analyse the existing code and make sure the existing code is understood clealy.
 2. Analyse the log provided, makes sure to list down the errors and warnings.
-3. Do a combined analysis of the code and logs together to identify the root cause of the issue.
+3. if multiple reasons exists, list down each reason with detail explanation, don't force to a single answer.
+4. log format is python logging
 </instructions>
 
 <output_format>

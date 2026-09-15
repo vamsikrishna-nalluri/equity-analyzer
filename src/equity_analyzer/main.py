@@ -1,3 +1,4 @@
+# src/equity_analyzer/main.py
 from fastapi import FastAPI
 
 from equity_analyzer.api.exception_handlers import (

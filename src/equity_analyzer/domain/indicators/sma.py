@@ -1,3 +1,4 @@
+## src/equity_analyzer/domain/indicators/sma.py
 from typing import Any
 
 from equity_analyzer.domain.indicators.technical_indicator import (

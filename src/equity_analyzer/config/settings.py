@@ -1,3 +1,4 @@
+## src/equity_analyzer/config/settings.py
 from dataclasses import dataclass
 
 
