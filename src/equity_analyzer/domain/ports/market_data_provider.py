@@ -1,3 +1,5 @@
+## src/equity_analyzer/domain/ports/market_data_provider.py
+
 from abc import ABC, abstractmethod
 from typing import Any
 

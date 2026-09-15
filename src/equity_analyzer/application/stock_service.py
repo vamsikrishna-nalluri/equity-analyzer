@@ -1,3 +1,4 @@
+# src/equity_analyzer/application/stock_service.py
 import re
 
 from equity_analyzer.application.exceptions import InvalidTickerException

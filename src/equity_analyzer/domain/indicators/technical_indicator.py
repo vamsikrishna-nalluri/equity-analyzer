@@ -1,3 +1,5 @@
+## src/equity_analyzer/domain/indicators/technical_indicator.py
+
 from abc import ABC, abstractmethod
 from typing import Any
 
